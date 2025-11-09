@@ -1,0 +1,12 @@
+2025-11-05_01-04-53  Running log monitor...
+2025-11-05_01-05-16  Menu exited by user.
+2025-11-05_01-06-29  Menu exited by user.
+2025-11-05_01-07-01  Menu exited by user.
+2025-11-09_16-22-55  User initiated backup for: sudo ./scripts/backup.sh /etc /home/eco/Documents
+2025-11-09_16-23-59  User initiated backup for: sudo ./scripts/backup.sh /etc /home/eco
+2025-11-09_16-24-36  User initiated backup for: /etc /home/eco
+2025-11-09_16-25-52  User initiated backup for: /etc /home/eco/Projects
+2025-11-09_16-31-23  User initiated backup for: /etc /home/eco/Projects
+2025-11-09_16-31-33  User initiated backup for: /etc /home/eco/Projects
+2025-11-09_16-32-19  Running log monitor...
+2025-11-09_16-32-40  Menu exited by user.

@@ -1,0 +1,61 @@
+2025-11-05_00-31-20  Starting backup of: /etc
+tar: Removing leading `/' from member names
+tar: The following options were used after any non-optional arguments in archive create or update mode.  These options are positional and affect only arguments that follow them.  Please, rearrange them properly.
+tar: --exclude ‘/proc’ has no effect
+tar: --exclude ‘/sys’ has no effect
+tar: --exclude ‘/dev’ has no effect
+tar: Exiting with failure status due to previous errors
+2025-11-05_00-31-20  ERROR: Tar command failed while backing up /etc
+2025-11-05_00-31-39  Starting backup of: /home/eco/Documents
+tar: Removing leading `/' from member names
+tar: /home/eco/Documents: Cannot stat: No such file or directory
+tar: The following options were used after any non-optional arguments in archive create or update mode.  These options are positional and affect only arguments that follow them.  Please, rearrange them properly.
+tar: --exclude ‘/proc’ has no effect
+tar: --exclude ‘/sys’ has no effect
+tar: --exclude ‘/dev’ has no effect
+tar: Exiting with failure status due to previous errors
+2025-11-05_00-31-39  ERROR: Tar command failed while backing up /home/eco/Documents
+2025-11-05_00-32-40  Starting backup of: /home/eco/Desktop
+tar: Removing leading `/' from member names
+tar: /home/eco/Desktop: Cannot stat: No such file or directory
+tar: The following options were used after any non-optional arguments in archive create or update mode.  These options are positional and affect only arguments that follow them.  Please, rearrange them properly.
+tar: --exclude ‘/proc’ has no effect
+tar: --exclude ‘/sys’ has no effect
+tar: --exclude ‘/dev’ has no effect
+tar: Exiting with failure status due to previous errors
+2025-11-05_00-32-40  ERROR: Tar command failed while backing up /home/eco/Desktop
+2025-11-05_00-42-07  Starting backup of: /home/eco/Desktop
+tar: Removing leading `/' from member names
+tar: /home/eco/Desktop: Warning: Cannot stat: No such file or directory
+tar: The following options were used after any non-optional arguments in archive create or update mode.  These options are positional and affect only arguments that follow them.  Please, rearrange them properly.
+tar: --exclude ‘/proc’ has no effect
+tar: --exclude ‘/sys’ has no effect
+tar: --exclude ‘/dev’ has no effect
+tar: Exiting with failure status due to previous errors
+2025-11-05_00-42-07  ERROR: Tar command failed while backing up /home/eco/Desktop
+2025-11-05_00-49-28  Starting backup of: /etc
+tar: Removing leading `/' from member names
+2025-11-05_00-49-28  Backup created: /var/backups/system-maintenance-suite/etc_2025-11-05_00-49-28.tar.gz (444K)
+2025-11-05_00-49-28  Backup completed successfully for: /etc
+2025-11-09_16-22-55  Starting backup of: sudo ./scripts/backup.sh /etc /home/eco/Documents
+2025-11-09_16-22-55  ERROR: Source path not found: sudo ./scripts/backup.sh /etc /home/eco/Documents
+2025-11-09_16-23-59  Starting backup of: sudo ./scripts/backup.sh /etc /home/eco
+2025-11-09_16-23-59  ERROR: Source path not found: sudo ./scripts/backup.sh /etc /home/eco
+2025-11-09_16-24-36  Starting backup of: /etc /home/eco
+2025-11-09_16-24-36  ERROR: Source path not found: /etc /home/eco
+2025-11-09_16-25-52  Starting backup of: /etc /home/eco/Projects
+2025-11-09_16-25-52  ERROR: Source path not found: /etc /home/eco/Projects
+2025-11-09_16-31-23  Starting backup of: /etc
+/home/eco/Projects
+tar: Removing leading `/' from member names
+tar: Removing leading `/' from hard link targets
+2025-11-09_16-31-23  Backup created: /var/backups/system-maintenance-suite/etc_Projects_2025-11-09_16-31-23.tar.gz (464K)
+2025-11-09_16-31-23  Backup completed successfully for: /etc
+/home/eco/Projects
+2025-11-09_16-31-33  Starting backup of: /etc
+/home/eco/Projects
+tar: Removing leading `/' from member names
+tar: Removing leading `/' from hard link targets
+2025-11-09_16-31-33  Backup created: /var/backups/system-maintenance-suite/etc_Projects_2025-11-09_16-31-33.tar.gz (464K)
+2025-11-09_16-31-33  Backup completed successfully for: /etc
+/home/eco/Projects

@@ -1,0 +1,42 @@
+==== System Log Monitoring Report (2025-11-09_16-32-19) ====
+
+Analyzing: /var/log/syslog
+---- Matches for 'error' ----
+Nov  9 16:06:56 Adarsh18 networkd-dispatcher[233]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='n/a', administrative='unmanaged'): n/a
+Nov  9 16:06:56 Adarsh18 networkd-dispatcher[233]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='eth0', type='ether', operational='n/a', administrative='unmanaged'): n/a
+Nov  9 16:06:58 Adarsh18 pipewire[436]: mod.rt: RTKit error: org.freedesktop.DBus.Error.AccessDenied
+Nov  9 16:06:58 Adarsh18 pipewire-media-session[438]: mod.rt: RTKit error: org.freedesktop.DBus.Error.AccessDenied
+Nov  9 16:06:58 Adarsh18 pipewire[436]: mod.rt: RTKit error: org.freedesktop.DBus.Error.AccessDenied
+Nov  9 16:07:02 Adarsh18 kernel: [    5.922215] WSL (214) ERROR: CheckConnection: connect() failed: 101
+Nov  9 16:07:02 Adarsh18 kernel: [    8.192586] platform regulatory.0: Direct firmware load for regulatory.db failed with error -2
+Nov  9 16:07:02 Adarsh18 subiquity_event.319[319]: subiquity/Error/apply_autoinstall_config
+Nov  9 16:07:02 Adarsh18 subiquity_event.319[319]: subiquity/Error/apply_autoinstall_config
+
+---- Matches for 'failed' ----
+Nov  9 16:06:56 Adarsh18 dbus-daemon[228]: [system] Activation via systemd failed for unit 'dbus-org.freedesktop.network1.service': Unit dbus-org.freedesktop.network1.service not found.
+Nov  9 16:07:02 Adarsh18 kernel: [    5.922215] WSL (214) ERROR: CheckConnection: connect() failed: 101
+Nov  9 16:07:02 Adarsh18 kernel: [    8.192586] platform regulatory.0: Direct firmware load for regulatory.db failed with error -2
+Nov  9 16:07:02 Adarsh18 kernel: [    8.192590] cfg80211: failed to load regulatory.db
+
+---- Matches for 'denied' ----
+Nov  9 16:06:58 Adarsh18 pipewire[436]: mod.rt: RTKit error: org.freedesktop.DBus.Error.AccessDenied
+Nov  9 16:06:58 Adarsh18 pipewire[436]: mod.rt: could not set nice-level to -11: Permission denied
+Nov  9 16:06:58 Adarsh18 pipewire-media-session[438]: mod.rt: RTKit error: org.freedesktop.DBus.Error.AccessDenied
+Nov  9 16:06:58 Adarsh18 pipewire-media-session[438]: mod.rt: could not make thread 456 realtime using RTKit: Permission denied
+Nov  9 16:06:58 Adarsh18 pipewire[436]: mod.rt: RTKit error: org.freedesktop.DBus.Error.AccessDenied
+Nov  9 16:06:58 Adarsh18 pipewire[436]: mod.rt: could not make thread 465 realtime using RTKit: Permission denied
+
+--------------------------------------------
+Analyzing: /var/log/auth.log
+--------------------------------------------
+Analyzing: /var/log/kern.log
+---- Matches for 'error' ----
+Nov  9 16:07:02 Adarsh18 kernel: [    8.192586] platform regulatory.0: Direct firmware load for regulatory.db failed with error -2
+
+---- Matches for 'failed' ----
+Nov  9 16:07:02 Adarsh18 kernel: [    8.192586] platform regulatory.0: Direct firmware load for regulatory.db failed with error -2
+Nov  9 16:07:02 Adarsh18 kernel: [    8.192590] cfg80211: failed to load regulatory.db
+
+--------------------------------------------
+
+==== End of Report ====
